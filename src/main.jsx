@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import App from './App.jsx'
 import ErrorPage from '@/pages/ErrorPage'
 import './index.css'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 /**
  * 💥 CHAOS TEST COMPONENT
