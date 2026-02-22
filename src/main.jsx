@@ -6,6 +6,7 @@ import App from './App.jsx'
 import ErrorPage from '@/pages/ErrorPage'
 import './index.css'
 
+
 /**
  * 💥 CHAOS TEST COMPONENT
  * This exists solely to trigger the ErrorPage.jsx we built.
