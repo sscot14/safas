@@ -20,12 +20,15 @@ export default function App() {
 
   return (
     <div className={`min-h-screen transition-colors duration-300 flex flex-col items-center justify-center p-6 text-center
-      ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-zinc-50 text-zinc-900'}`}>
+      ${theme === 'dark' ? 'bg-zinc-950 text-zinc-100' : 'bg-orange-100 text-zinc-900'}`}>
       
       <div className={`p-4 rounded-2xl border shadow-xl flex items-center gap-3 mb-8
         ${theme === 'dark' ? 'bg-zinc-900 border-zinc-800' : 'bg-white border-zinc-200'}`}>
         <CheckCircle className="text-emerald-500 w-6 h-6" />
-        <h1 className="text-xl font-bold uppercase tracking-tighter">Protocol v3.8 Live</h1>
+        <h1 className="text-xl font-bold uppercase tracking-tighter">Protocol v3.8 Live</h1>        <div className={`px-2 py-0.5 rounded text-[10px] font-mono border ${theme === 'dark' ? 'bg-zinc-800 border-zinc-700 text-zinc-400' : 'bg-zinc-100 border-zinc-200 text-zinc-500'}`}>
+          STABLE
+        </div>
+        
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-3xl mb-8">
